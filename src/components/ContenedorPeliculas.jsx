@@ -15,10 +15,6 @@ const ListaPeliculas = ()  => {
     return (
         <div>
             <h3 key={item.id}>{item.title}</h3>
-            {console.log(item)}
-            {console.log(item.length)}
-            {console.log(typeof (item))}
-
             {item.length > 0
             ? item.map(pelis => 
                 <Peliculas key={pelis.id} peliculas={pelis}/>)

@@ -1,10 +1,10 @@
 import './App.css';
-import ContenedorPeliculas from './components/ContenedorPeliculas.jsx'
+import ListaPeliculas from './components/ContenedorPeliculas.jsx'
 
 function App() {
   return (
     <div className="App">
-      <ContenedorPeliculas />
+      <ListaPeliculas />
     </div>
   );
 }
