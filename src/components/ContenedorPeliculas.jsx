@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Peliculas from "./Peliculas";
 
+
 const ListaPeliculas = ()  => {
         const URL = 'https://ghibli-api-v1.azurewebsites.net/api/v1/movies';
         const [item, setData] = useState([]);       //estado
